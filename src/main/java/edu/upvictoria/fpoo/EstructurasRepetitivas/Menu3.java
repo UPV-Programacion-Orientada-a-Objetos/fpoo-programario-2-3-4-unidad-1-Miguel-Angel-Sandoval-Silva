@@ -27,7 +27,12 @@ public class Menu3 {
                     "[12]Ejercicio12\n" +
                     "[13]Ejercicio13\n" +
                     "[14]Ejercicio14\n" +
-                    "[15]Ejercicio15\n");
+                    "[15]Ejercicio15\n"+
+                    "[16]Ejercicio16\n" +
+                    "[17]Ejercicio17\n" +
+                    "[18]Ejercicio18\n" +
+                    "[19]Ejercicio19\n" +
+                    "[20]Ejercicio20\n");
             opcion = teclado.nextInt();
             switch (opcion){
                 case 0: break;
@@ -61,6 +66,16 @@ public class Menu3 {
                     EjercicioCatorce.run();break;
                 case 15:
                     EjercicioQuince.run();break;
+                case 16:
+                    EjercicioDiesciseis.run();break;
+                case 17:
+                    EjercicioDiescisiete.run();break;
+                case 18:
+                    EjercicioDiesciocho.run();break;
+                case 19:
+                    EjercicioDiescinueve.run();break;
+                case 20:
+                    EjercicioVeinte.run();break;
                 default:System.out.println("Esa opcion no esta disponible");break;
             }
         } while (opcion != 0);
